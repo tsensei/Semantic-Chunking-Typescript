@@ -1,0 +1,35 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/d3-array": "^3.2.1",
+    "@types/node": "^20.1.0",
+    "@types/numjs": "^0.16.8"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.0.26",
+    "compromise": "^14.13.0",
+    "d3-array": "^3.2.4",
+    "dotenv": "^16.0.3",
+    "langchain": "^0.1.31",
+    "mammoth": "^1.7.1",
+    "mathjs": "^12.4.1",
+    "natural": "^6.12.0",
+    "node-nlp": "^4.27.0",
+    "numjs": "^0.16.1",
+    "statistics-js": "^1.0.2",
+    "youtube-transcript": "^1.1.0",
+    "youtubei.js": "^9.2.0"
+  }
+}
